@@ -80,3 +80,14 @@ CREATE UNIQUE INDEX "attendees_event_id_email_key" ON "attendees"("event_id", "e
 -- CreateIndex
 CREATE UNIQUE INDEX "check_ins_attendeeId_key" ON "check_ins"("attendeeId");
 ```
+
+## INSTALAÇÕES
+
+- [X] Typescript @types/node -D
+- [X] npm i tsx -D
+- [X] npm i fastify
+- [X] npm i prisma -D (npx prisma init --datasource-provider SQLite)
+- [X] npm i zod
+- [X] npm i @fastify/swagger
+- [X] npm i @fastify/swagger-ui
+- [X] npm i @fastify/cors
